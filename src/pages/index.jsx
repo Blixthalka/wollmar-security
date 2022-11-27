@@ -1,6 +1,6 @@
 import React from 'react'
 import Guide from '../components/Guide';
-import Landing from '../components/landing';
+import Landing from '../components/Landing';
 import Layout from '../components/Layout'
 import Pricing from '../components/Pricing';
 import Founder from '../components/Founder';
