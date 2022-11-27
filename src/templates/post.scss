@@ -1,0 +1,53 @@
+.inner-blogg {
+
+  @apply text-lg py-5 mb-20 text-gray-800;
+  a {
+    text-decoration: none;
+
+    @apply underline decoration-dashed decoration-blue-400 underline-offset-8 hover:decoration-solid;
+
+
+  }
+  blockquote {
+    @apply pl-5 ml-0 border-l-4 text-gray-800;
+  }
+  p,
+  a,
+  th,
+  td,
+  table,
+  ul {
+    @apply mb-5;
+  }
+
+  li {
+    @apply mb-2 list-decimal list-inside;
+  }
+  h2,
+  h3 {
+    @apply text-xl font-bold
+  }
+  h4,
+  h5,
+  h6 {
+    @apply text-lg font-bold
+  }
+  table {
+    @apply w-full;
+
+
+    th {
+      @apply text-gray-500 font-normal bg-gray-50;
+    }
+
+    td, th {
+      @apply border text-sm px-2 tabular-nums;
+    }
+
+    tr:nth-child(even) {
+      @apply bg-gray-50
+    }
+
+
+  }
+}
