@@ -3,7 +3,7 @@ module.exports = {
     title: `Wollmar Security`,
     description: `Distribute passwords with ease.`,
     author: `Emil Nilsson`,
-    siteUrl: `https://www.wollmar-security.com`,
+    siteUrl: `https://wollmar-security.com`,
     image: "/logo.png"
   },
   plugins: [
